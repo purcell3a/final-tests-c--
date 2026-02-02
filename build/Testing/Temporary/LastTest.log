@@ -1,0 +1,135 @@
+Start testing: Jan 29 20:58 PST
+----------------------------------------------------------
+1/1 Testing: LibraryTest
+1/1 Test: LibraryTest
+Command: "/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/LibraryTest"
+Directory: /Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build
+"LibraryTest" start time: Jan 29 20:58 PST
+Output:
+----------------------------------------------------------
+Book 'Test Book' by Test Author added to the library.
+TestAddBook passed.
+Book 'Book1' by Author1 added to the library.
+Book 'Book1' removed from the library.
+Book 'Book1' not found in the library.
+TestRemoveBook passed.
+Book 'Book2' by Author2 added to the library.
+You have checked out 'Book2'. Copies remaining: 0
+Sorry, no copies of 'Book2' are currently available.
+Book 'Nonexistent' is not in the library.
+TestBorrowBook passed.
+Book 'Book3' by Author3 added to the library.
+TestDisplayBooks passed.
+Book 'B0' by A added to the library.
+Book 'B1' by A added to the library.
+Book 'B2' by A added to the library.
+Book 'B3' by A added to the library.
+Book 'B4' by A added to the library.
+Book 'B5' by A added to the library.
+Book 'B6' by A added to the library.
+Book 'B7' by A added to the library.
+Book 'B8' by A added to the library.
+Book 'B9' by A added to the library.
+Book 'B10' by A added to the library.
+Book 'B11' by A added to the library.
+Book 'B12' by A added to the library.
+Book 'B13' by A added to the library.
+Book 'B14' by A added to the library.
+Book 'B15' by A added to the library.
+Book 'B16' by A added to the library.
+Book 'B17' by A added to the library.
+Book 'B18' by A added to the library.
+Book 'B19' by A added to the library.
+Book 'B20' by A added to the library.
+Book 'B21' by A added to the library.
+Book 'B22' by A added to the library.
+Book 'B23' by A added to the library.
+Book 'B24' by A added to the library.
+Book 'B25' by A added to the library.
+Book 'B26' by A added to the library.
+Book 'B27' by A added to the library.
+Book 'B28' by A added to the library.
+Book 'B29' by A added to the library.
+Book 'B30' by A added to the library.
+Book 'B31' by A added to the library.
+Book 'B32' by A added to the library.
+Book 'B33' by A added to the library.
+Book 'B34' by A added to the library.
+Book 'B35' by A added to the library.
+Book 'B36' by A added to the library.
+Book 'B37' by A added to the library.
+Book 'B38' by A added to the library.
+Book 'B39' by A added to the library.
+Book 'B40' by A added to the library.
+Book 'B41' by A added to the library.
+Book 'B42' by A added to the library.
+Book 'B43' by A added to the library.
+Book 'B44' by A added to the library.
+Book 'B45' by A added to the library.
+Book 'B46' by A added to the library.
+Book 'B47' by A added to the library.
+Book 'B48' by A added to the library.
+Book 'B49' by A added to the library.
+Book 'B50' by A added to the library.
+Book 'B51' by A added to the library.
+Book 'B52' by A added to the library.
+Book 'B53' by A added to the library.
+Book 'B54' by A added to the library.
+Book 'B55' by A added to the library.
+Book 'B56' by A added to the library.
+Book 'B57' by A added to the library.
+Book 'B58' by A added to the library.
+Book 'B59' by A added to the library.
+Book 'B60' by A added to the library.
+Book 'B61' by A added to the library.
+Book 'B62' by A added to the library.
+Book 'B63' by A added to the library.
+Book 'B64' by A added to the library.
+Book 'B65' by A added to the library.
+Book 'B66' by A added to the library.
+Book 'B67' by A added to the library.
+Book 'B68' by A added to the library.
+Book 'B69' by A added to the library.
+Book 'B70' by A added to the library.
+Book 'B71' by A added to the library.
+Book 'B72' by A added to the library.
+Book 'B73' by A added to the library.
+Book 'B74' by A added to the library.
+Book 'B75' by A added to the library.
+Book 'B76' by A added to the library.
+Book 'B77' by A added to the library.
+Book 'B78' by A added to the library.
+Book 'B79' by A added to the library.
+Book 'B80' by A added to the library.
+Book 'B81' by A added to the library.
+Book 'B82' by A added to the library.
+Book 'B83' by A added to the library.
+Book 'B84' by A added to the library.
+Book 'B85' by A added to the library.
+Book 'B86' by A added to the library.
+Book 'B87' by A added to the library.
+Book 'B88' by A added to the library.
+Book 'B89' by A added to the library.
+Book 'B90' by A added to the library.
+Book 'B91' by A added to the library.
+Book 'B92' by A added to the library.
+Book 'B93' by A added to the library.
+Book 'B94' by A added to the library.
+Book 'B95' by A added to the library.
+Book 'B96' by A added to the library.
+Book 'B97' by A added to the library.
+Book 'B98' by A added to the library.
+Book 'B99' by A added to the library.
+Error: Library is full. Cannot add more books.
+TestLibraryFull passed.
+TestDisplayBooksEmptyOutput passed.
+All tests completed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LibraryTest" end time: Jan 29 20:58 PST
+"LibraryTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 29 20:58 PST

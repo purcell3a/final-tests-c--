@@ -1,0 +1,5 @@
+/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/CMakeFiles/LibraryExecutable.dir
+/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/CMakeFiles/LibraryTest.dir
+/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/CMakeFiles/test.dir
+/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/CMakeFiles/edit_cache.dir
+/Users/lilchichie/src/school/c++/CPP_Assignment_5_Final_Library_Management_Class/build/CMakeFiles/rebuild_cache.dir
