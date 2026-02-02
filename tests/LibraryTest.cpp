@@ -4,6 +4,12 @@
 #include <sstream>
 #include <string>
 
+// TestLibraryFull()
+// - Library correctly enforces MAX_BOOKS capacity
+// - Adding beyond capacity doesn't increase count
+// - Overflow book is NOT added (search returns nullptr)
+// What it catches: Buffer overflows, capacity enforcement bugs, vector growth issues
+
 void TestLibraryFull() {
     Library lib;
     const int cap = lib.GetCapacity();
@@ -23,6 +29,11 @@ struct CoutRedirect {
     ~CoutRedirect() { std::cout.rdbuf(old); }
 };
 
+// TestDisplayBooksEmptyOutput()
+// - Empty library displays "No books in the library."
+// - Uses output redirection to capture and verify console output
+// What it catches: Missing empty-state handling, incorrect output messages
+
 void TestDisplayBooksEmptyOutput() {
     Library lib;
     std::ostringstream out;
@@ -33,6 +44,13 @@ void TestDisplayBooksEmptyOutput() {
     assert(out.str().find("No books in the library.") != std::string::npos);
     std::cout << "TestDisplayBooksEmptyOutput passed.\n";
 }
+
+// TestAddBook()
+// -  Book count increases after adding
+// -  Book can be found by title after adding
+// - All Book fields are stored correctly (title, author, year, copies)
+// -  copiesCheckedOut initializes to 0
+// - What it catches: Broken constructor, incorrect field assignment, search failures
 
 void TestAddBook() {
     Library lib;
@@ -48,6 +66,12 @@ void TestAddBook() {
     std::cout << "TestAddBook passed.\n";
 }
 
+// TestRemoveBook()
+// - Book count decreases after removal
+// - Removed book is actually gone (can't be found)
+// - Removing non-existent book doesn't crash the program
+// What it catches: Memory leaks, dangling pointers, removal logic errors, crash on edge cases
+
 void TestRemoveBook() {
     Library lib;
     lib.AddBook("Book1", "Author1", 2000, 1);
@@ -57,6 +81,13 @@ void TestRemoveBook() {
     lib.RemoveBook("Book1"); // Should not crash
     std::cout << "TestRemoveBook passed.\n";
 }
+
+// TestBorrowBook()
+// - Available copies decrease when borrowed
+// - Checked-out copies increase when borrowed
+// - Can't borrow when no copies available (counts stay the same)
+// - Borrowing non-existent book doesn't crash
+// What it catches: Off-by-one errors, counter logic, edge case handling
 
 void TestBorrowBook() {
     Library lib;
@@ -70,6 +101,12 @@ void TestBorrowBook() {
     lib.BorrowBook("Nonexistent");
     std::cout << "TestBorrowBook passed.\n";
 }
+
+// TestDisplayBooks()
+// - Empty library has count of 0
+// - After adding, count is correct
+// - Added book exists and is findable
+// What it catches: Basic state consistency
 
 void TestDisplayBooks() {
     Library lib;
